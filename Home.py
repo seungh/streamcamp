@@ -41,7 +41,7 @@ cd streamcamp
 ```
 
 3. 프로그램에서 사용하는 추가 패키지를 설치합니다. streamlit 이외에도 pandas와 plotyly 패키지를 사용하므로 `pip install streamlit pandas plotly` 
-명령으로 패키지를 설치할 수 있습니다. 하지만 버전이 업데이트에 따라서 오류가 발생할 수 있는데 이를 피하고 싶다면 아래 명령어를 이용해서 설치하세요. 
+명령으로 패키지를 설치할 수 있습니다. 하지만 버전이 업데이트됨에 따라서 오류가 발생할 수 있는데 이를 피하고 싶다면 아래 명령어를 이용해서 설치하세요. 
 소스코드와 함께 등록되어 있는 `requirements.txt` 파일에는 사용된 라이브러리의 버전이 지정되어 있습니다. 
 ```
 pip install -r requirements.txt

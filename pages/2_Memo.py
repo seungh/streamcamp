@@ -11,7 +11,7 @@ st.write("""
 """)
 
 # memo 폴더에서 파일목록을 읽어옵니다.
-memo_list = ['새로운 메모'] + os.listdir('memo/')
+memo_list = ['새로운 메모'] + sorted(os.listdir('memo/'))
 fn = st.selectbox('메모를 선택하세요.', memo_list)
 
 content = ''
